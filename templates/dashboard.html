@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ERM Flask Dashboard</title>
+</head>
+<body>
+    <h1>ERM Data Dashboard</h1>
+    <form method="get">
+        <label>Filter by Category:</label>
+        <select name="category" onchange="this.form.submit()">
+            <option value="All" {% if selected == 'All' %}selected{% endif %}>All</option>
+            {% for cat in categories %}
+                <option value="{{ cat }}" {% if selected == cat %}selected{% endif %}>{{ cat }}</option>
+            {% endfor %}
+        </select>
+    </form>
+    <div>{{ chart|safe }}</div>
+</body>
+</html>
