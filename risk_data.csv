@@ -1,0 +1,11 @@
+Date,Risk_Category,Loss_Amount,Risk_Score
+2023-01-01,Market,34928.07,1
+2023-01-08,Compliance,14922.45,1
+2023-01-15,Operational,28050.94,3
+2023-01-22,Market,22521.52,2
+2023-01-29,Market,9110.54,5
+2023-02-05,Credit,12345.00,2
+2023-02-12,Operational,8750.75,4
+2023-02-19,Compliance,16200.10,3
+2023-02-26,Credit,9900.00,4
+2023-03-05,Operational,6700.25,2
